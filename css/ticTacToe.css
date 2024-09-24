@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    min-width: 100vw;
+    min-height:100vh;
+    background-color: blanchedalmond;
+}
+.projName{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.game{
+    margin: auto ;
+    
+    width:300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+}
+.reset{
+    background-color:blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
